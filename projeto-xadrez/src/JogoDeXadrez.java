@@ -11,7 +11,7 @@ class JogoDeXadrez implements Jogo {
             jogador1.jogar(tabuleiro, "", 0);
             jogador2.jogar(tabuleiro, "", 0);
             break; // evita loop infinito
-        }
+    }
     }
 
     public static void main(String[] args) {
