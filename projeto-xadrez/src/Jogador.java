@@ -6,5 +6,5 @@ abstract class Jogador implements JogadorInterface {
             throw new IllegalArgumentException("Cor inválida");
         }
         this.cor = cor;
-    }
+     }
 }
